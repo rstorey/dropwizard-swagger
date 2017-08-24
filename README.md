@@ -92,6 +92,18 @@ A note on Swagger 2
 
 Host and port do not seem to be needed for Swagger 2 to work properly as it uses relative URLs. At the moment I haven't run through all the scenarios so some adjustments might be needed, please open a bug if you encounter any problems.
 
+Building and Testing
+--------------------
+
+To build:
+```
+mvn clean install
+```
+
+Note that you need to [download and add the chrome driver to your system PATH](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver) before being able to successfully execute the tests.
+
+
+
 
 Contributors
 ------------
@@ -105,3 +117,4 @@ Contributors
 * Matt Carrier [mattcarrier] (https://github.com/mattcarrier)
 * Justin Plock [jplock] (https://github.com/jplock)
 * Ian Rogers [IanRogers-LShift] (https://github.com/IanRogers-LShift)
+* Rosie Storey [rstorey] (https://github.com/rstorey)
